@@ -1,6 +1,6 @@
 ---
 name: ponyo-ai-style-atlas-director
-description: PONYO AI 风格导演图谱 v3.1 — 导演/IP氛围转译 × 双引擎提示词编译 × 视频模型路由 × 风格锚导出。把宫崎骏/王家卫/韦斯·安德森等传播名转译成商用安全的视觉DNA，按 ChatGPT Imagen 2 × NanoBanana2 双引擎分别编译图片提示词，按即梦/Seedance/可灵/Veo/万相路由视频提示词，并可把任意氛围导出为 prism-style-anchor 格式的风格锚卡跨技能复用。当用户说"帮我选风格""这个题材像哪个导演""某某风格改成商用安全提示词""要有导演感""做封面/KV/海报""六宫格/八宫格故事板""15秒视频提示词""这图为什么不像某导演氛围""把这个风格炼成锚"时，立即使用本技能。触发词：风格图谱、氛围转译、导演风格、IP氛围、商用安全、视觉DNA、双引擎、ChatGPT生图提示词、风格锚导出。
+description: PONYO AI 风格导演图谱 v3.1 — 视觉氛围转译 × 双引擎提示词编译 × 视频模型路由 × 风格锚导出。把宫崎骏/吉卜力、皮克斯、迪士尼、梵高、莫兰迪等传播名转译成商用安全的视觉DNA，按 ChatGPT Imagen 2 × NanoBanana2 双引擎分别编译图片提示词，按即梦/Seedance/可灵/Veo/万相路由视频提示词，并可把任意氛围导出为 prism-style-anchor 格式的风格锚卡跨技能复用。当用户说"帮我选风格""这个题材适合什么视觉氛围""某某风格改成商用安全提示词""要有高级氛围感""做封面/KV/海报""六宫格/八宫格故事板""15秒视频提示词""这图为什么不像目标氛围""把这个风格炼成锚"时，立即使用本技能。触发词：风格图谱、氛围转译、商用安全、视觉DNA、双引擎、ChatGPT生图提示词、风格锚导出。
 metadata:
   version: "3.1.0"
 ---
@@ -12,7 +12,7 @@ metadata:
 
 ## Core Purpose
 
-把用户模糊的视觉想法，变成可直接投产的创作包。V3 在 V2「导演/IP 氛围转译」的基础上，解决三个生产断层：
+把用户模糊的视觉想法，变成可直接投产的创作包。V3 在 V2「视觉氛围转译」的基础上，解决三个生产断层：
 
 1. **同一份视觉 DNA，不同图片引擎要说不同的话** → 双引擎编译层（ChatGPT Imagen 2 × NanoBanana2）
 2. **同一个 15 秒脚本，不同视频模型有不同脾气** → 视频模型路由层（即梦/Seedance/可灵/Veo/万相）
@@ -32,7 +32,7 @@ V3 的完整链路：
 
 ## Critical Principle: Translate, Do Not Clone（V2 继承，不变）
 
-当用户点名在世导演、工作室、受保护 IP 时，**不复刻**具体角色、Logo、标志道具、版权场景、专有设计。
+当用户点名在世人物、工作室、受保护 IP 时，**不复刻**具体角色、Logo、标志道具、版权场景、专有设计。
 
 流程：
 
@@ -101,7 +101,7 @@ soft clouds, gentle natural light, lyrical everyday wonder, warm grounded emotio
 | 一次出图、批量出分镜格 | NB2（一次讲清） |
 | 带中文标题的封面/海报 | 两者皆可，均写明文字内容与位置 |
 
-### 编译示例（王家卫感 → 霓虹胶片都市孤独感）
+### 编译示例（雨夜胶片都市感 → 霓虹胶片都市孤独感）
 
 ```text
 【ChatGPT Imagen 2 · 首轮】
@@ -181,8 +181,8 @@ soft clouds, gentle natural light, lyrical everyday wonder, warm grounded emotio
 
 ## Output Modes（V3）
 
-### Mode A — Director / IP Atmosphere Translation
-用户点名导演/工作室/IP/艺术家时使用。输出：传播版名称 → 商用安全版转译 → 氛围拆解 → **双引擎提示词（ChatGPT Imagen 2 + NB2）**。
+### Mode A — Visual Atmosphere Translation
+用户点名动画、工作室、艺术史或视觉氛围时使用。输出：传播版名称 → 商用安全版转译 → 氛围拆解 → **双引擎提示词（ChatGPT Imagen 2 + NB2）**。
 
 ### Mode B — Style Diagnosis
 "这是什么风格 / 怎么高级一点"。输出：风格标签、氛围 DNA、优点、风险、改进方向、提示词重写（双引擎）。
@@ -221,7 +221,7 @@ soft clouds, gentle natural light, lyrical everyday wonder, warm grounded emotio
 
 除非用户明确要求：
 
-- 偏好电影级、克制、不廉价的画面；导演级氛围优先于通用关键词
+- 偏好电影级、克制、不廉价的画面；清晰视觉氛围优先于通用关键词
 - 避免过量粒子、随机光斑、霓虹 HUD、廉价科幻 UI、AI 高光腻子感
 - 中国文化视觉避免廉价古装剧滤镜和过饱和红金
 - 产品广告保持产品几何准确、材质可信
@@ -235,7 +235,7 @@ soft clouds, gentle natural light, lyrical everyday wonder, warm grounded emotio
 ## 质检清单（V3 引擎级）
 
 **氛围层**
-- 是否只像"通用风格"，缺少导演级氛围 DNA？
+- 是否只像"通用风格"，缺少清晰的视觉氛围 DNA？
 - 是否出现具体 IP 角色、Logo、专有场景？
 - 光影、构图、材质、情绪是否统一？
 

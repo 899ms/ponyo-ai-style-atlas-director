@@ -27,11 +27,11 @@
 - 15s 视频输出从"单段英文长文"改为"节拍表+路由建议+模型方言提示词+换模型改法"。
 
 
-## V2 — 知名导演 / 经典 IP 氛围转译版
+## V2 — 视觉氛围转译版
 
 ### Added
 - 新增 `data/director_ip_atmosphere.yaml`，作为核心高价值风格库。
-- 新增知名导演 / 经典 IP / 艺术大师的传播版名称与商用安全版转译。
+- 新增动画 / 艺术 / 视觉氛围的传播版名称与商用安全版转译。
 - 新增 `templates/director_ip_translation_template.md`。
 - 新增 `examples/director_ip_atmosphere_poster_example.md`。
 - 新增 `examples/director_ip_storyboard_example.md`。
@@ -41,7 +41,7 @@
 ### Changed
 - `SKILL.md` 从通用风格推荐器升级为“氛围转译 + 视觉导演”系统。
 - `README.md` 更新为 V2 定位。
-- `STYLE_TAXONOMY.md` 改为两层结构：高价值导演/IP氛围库 + 通用支撑风格库。
+- `STYLE_TAXONOMY.md` 改为两层结构：高价值视觉氛围库 + 通用支撑风格库。
 - `commercial_safe_aliases.yaml` 增加更多传播名到安全描述的映射。
 
 ### Required Core Mappings

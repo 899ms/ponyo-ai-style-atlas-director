@@ -1,6 +1,6 @@
-# Director / IP Atmosphere Translation Template
+# Visual Atmosphere Translation Template
 
-Use this template when a user names a director, studio, famous IP, or recognizable art-master style.
+Use this template when a user names a familiar animation, studio, art-history, or recognizable visual atmosphere.
 
 ```markdown
 # 氛围转译：{传播版名称}
