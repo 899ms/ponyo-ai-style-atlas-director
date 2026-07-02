@@ -1,6 +1,6 @@
 interface:
   display_name: "PONYO AI 风格导演图谱"
-  short_description: "视觉氛围转译、双引擎提示词与视频路由"
-  default_prompt: "Use $ponyo-ai-style-atlas-director to translate this visual idea into a commercial-safe style DNA, image prompt, storyboard, and video prompt package."
+  short_description: "版权安全氛围转译、双引擎提示词与视频路由"
+  default_prompt: "Use $ponyo-ai-style-atlas-director to turn my story into a copyright-safe visual style DNA, ChatGPT Image 2 prompt, storyboard, and video prompt package."
 policy:
   allow_implicit_invocation: true
