@@ -1,0 +1,156 @@
+- zh_name: 印象派风格
+  safe_en: Impressionist outdoor light painting
+  use: 户外、花园、水面、自然光、轻盈氛围
+- zh_name: 表现主义风格
+  safe_en: Expressionist emotional distortion
+  use: 焦虑、压迫、强情绪、变形线条
+- zh_name: 莫兰迪风格
+  safe_en: Muted gray-toned still-life palette
+  use: 家居静物、低饱和、文艺慵懒
+- zh_name: 后印象派厚涂油画风
+  safe_en: Post-impressionist impasto brushwork
+  use: 强烈笔触、星空、麦田、生命力
+- zh_name: 巴洛克风格
+  safe_en: Baroque dramatic chiaroscuro
+  use: 宏大宗教史诗感、强烈明暗、华丽构图
+- zh_name: 洛可可风格
+  safe_en: Rococo pastel ornate elegance
+  use: 粉色、奶油、金色、华丽室内、甜美贵族感
+- zh_name: 波普艺术风格
+  safe_en: Pop art comic halftone design
+  use: 高饱和、网点、漫画字效、强视觉冲击
+- zh_name: 美式漫画风
+  safe_en: American comic action illustration
+  use: 粗线条、高对比、动作爆炸、英雄叙事
+- zh_name: 像素艺术风
+  safe_en: Retro pixel art
+  use: 复古游戏、低分辨率方块、怀旧电子感
+- zh_name: 低多边形风
+  safe_en: Low-poly geometric 3D
+  use: 简化几何、游戏化、现代三维
+- zh_name: 黏土动画风
+  safe_en: Clay animation handmade look
+  use: 手工捏塑、圆润可爱、童趣
+- zh_name: 定格动画风
+  safe_en: Stop-motion miniature animation
+  use: 微缩场景、真实材质、逐帧手作感
+- zh_name: 剪纸风格
+  safe_en: Layered paper-cut illustration
+  use: 节庆、民俗、平面层叠、纸张边缘
+- zh_name: 浮世绘风格
+  safe_en: Ukiyo-e inspired flat print aesthetic
+  use: 浪花、山水、平面色块、日式古典
+- zh_name: 唐风美学
+  safe_en: Tang dynasty ornate Chinese aesthetic
+  use: 华丽服饰、盛唐气象、浓郁东方宫廷
+- zh_name: 国潮插画风
+  safe_en: Modern Chinese pop illustration
+  use: 高饱和、传统符号、年轻潮流
+- zh_name: 红金国潮风
+  safe_en: Red and gold Chinese festive graphic design
+  use: 节庆、品牌宣传、醒目喜庆
+- zh_name: 未来主义风
+  safe_en: Sleek futurism
+  use: 科技、速度、城市、智能产品
+- zh_name: 赛博朋克风
+  safe_en: Neon dystopian futuristic city
+  use: 霓虹、雨夜、未来都市；默认不主动推荐
+- zh_name: 赛博东方风
+  safe_en: Neon futuristic city with East Asian architectural cues
+  use: 东方建筑、霓虹灯牌、未来都市
+- zh_name: 蒸汽朋克风
+  safe_en: Victorian industrial steampunk
+  use: 齿轮、蒸汽、黄铜、飞行器
+- zh_name: 机械朋克风
+  safe_en: Industrial mechanical punk
+  use: 钢铁、机械臂、巨大装置、硬核工业
+- zh_name: 生物机械风
+  safe_en: Biomechanical sci-fi fusion
+  use: 生物组织与机械结构融合、冷酷生命科技感
+- zh_name: 废土末日风
+  safe_en: Post-apocalyptic wasteland
+  use: 荒漠、废墟、锈蚀金属、生存感
+- zh_name: 太空歌剧风
+  safe_en: Epic space opera
+  use: 星舰、宇宙战场、宏大文明
+- zh_name: 幻想史诗风
+  safe_en: Epic fantasy concept art
+  use: 英雄、巨龙、战争、魔法世界
+- zh_name: 东方玄幻风
+  safe_en: Eastern high fantasy xianxia aesthetic
+  use: 仙侠、云海、长袍、灵兽、山水奇观
+- zh_name: Y2K风格
+  safe_en: Y2K chrome pastel digital nostalgia
+  use: 千禧年、透明塑料、银色、像素心、互联网怀旧
+- zh_name: 蒸汽波风格
+  safe_en: Vaporwave retro digital aesthetic
+  use: 粉紫蓝渐变、复古电脑、古典雕塑、棕榈树
+- zh_name: 怪核风格
+  safe_en: Weirdcore uncanny internet aesthetic
+  use: 不适、异常比例、废弃空间、奇怪生物
+- zh_name: 梦核风格
+  safe_en: Dreamcore nostalgic empty-space aesthetic
+  use: 空旷童年场景、柔光、熟悉又陌生
+- zh_name: Liminal Space风格
+  safe_en: Liminal empty transitional space
+  use: 无人走廊、商场、泳池、楼梯间、停滞感
+- zh_name: 复古未来主义风
+  safe_en: Retro-futurism
+  use: 旧时代想象中的未来、火箭、圆润飞船、乐观科技
+- zh_name: 日式极简风
+  safe_en: Japanese minimal interior aesthetic
+  use: 榻榻米、木格窗、留白、自然材料
+- zh_name: 洛杉矶阳光风
+  safe_en: Los Angeles sunlit retro coastal lifestyle
+  use: 棕榈、海岸公路、复古汽车、明亮自由
+- zh_name: 美式复古风
+  safe_en: American vintage roadside aesthetic
+  use: 汽车旅馆、霓虹餐厅、公路、Route 66
+- zh_name: 法式复古风
+  safe_en: French vintage cafe lifestyle
+  use: 咖啡馆、风衣、老街、胶片质感
+- zh_name: 韩系清新风
+  safe_en: Korean clean fresh lifestyle
+  use: 窗边、白色、花束、柔和肤色、小红书封面
+- zh_name: 清新森系风
+  safe_en: Fresh forest healing aesthetic
+  use: 森林、花草、自然光、治愈轻盈
+- zh_name: 扁平插画风
+  safe_en: Flat vector illustration
+  use: 信息图、品牌插画、新媒体配图
+- zh_name: 儿童插画风
+  safe_en: Children's book illustration
+  use: 教育、亲子、圆润可爱、安全感
+- zh_name: 漫画分镜风
+  safe_en: Manga panel storyboard style
+  use: 速度线、黑白分格、动作剧情
+- zh_name: 水彩插画风
+  safe_en: Transparent watercolor illustration
+  use: 清新、柔软、花草、轻盈手绘
+- zh_name: 彩铅插画风
+  safe_en: Colored pencil illustration
+  use: 细腻笔触、亲切、细节丰富
+- zh_name: 铅笔素描风
+  safe_en: Graphite pencil sketch
+  use: 结构、明暗、基础造型
+- zh_name: 炭笔素描风
+  safe_en: Charcoal portrait sketch
+  use: 粗粝、有力、人物情绪
+- zh_name: 油画写实风
+  safe_en: Realist oil painting
+  use: 真实光影、厚重材质、古典绘画感
+- zh_name: 商业产品大片风
+  safe_en: Premium product advertising visual
+  use: 产品质感、品牌 KV、干净布光
+- zh_name: 厚涂角色概念风
+  safe_en: Painterly character concept art
+  use: 角色设定、游戏海报、世界观
+- zh_name: 迪士尼式童话风
+  safe_en: Ornate fairytale animation look
+  use: 城堡、公主、梦幻华丽；商用安全需转译
+- zh_name: 皮克斯式3D动画风
+  safe_en: Warm family-friendly 3D animated film look
+  use: 家庭、温暖、圆润3D；商用安全需转译
+- zh_name: 宫崎骏氛围风
+  safe_en: Hand-painted Japanese healing animation atmosphere
+  use: 自然、童心、治愈；商用安全需转译

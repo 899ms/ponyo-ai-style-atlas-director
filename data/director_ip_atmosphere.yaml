@@ -1,0 +1,291 @@
+# PONYO AI Style Atlas Director — Director / IP Atmosphere Database V2
+# Purpose: convert familiar public references into commercially safer visual DNA.
+# Rule: do not copy exact characters, logos, props, proprietary settings, or iconic scenes.
+
+- id: miyazaki_ghibli
+  public_names: ["宫崎骏风格", "吉卜力风格"]
+  safe_label_zh: "日系手绘治愈动画风"
+  safe_label_en: "warm hand-painted Japanese animated film atmosphere"
+  category: "animation_director_studio"
+  best_for: ["治愈短片", "乡野奇遇", "童心冒险", "自然与人关系", "温柔幻想"]
+  visual_dna:
+    composition: "开阔天空、乡野道路、山坡小镇、自然与人物比例悬殊，画面有呼吸感和留白。"
+    color: "天空蓝、草木绿、奶油白、暖阳黄，饱和度适中，清透但不刺眼。"
+    lighting: "柔和自然光，午后或清晨日照，空气透视明显。"
+    texture: "手绘背景、水彩/赛璐璐感、可见笔触但保持干净。"
+    camera: "低速横移、跟随步行、仰看云朵、远景建立空间。"
+    emotion: "童心、温柔、平凡生活中的神秘感，治愈但不幼稚。"
+    motifs: ["风吹草地", "白云", "乡间屋顶", "自行车", "小动物", "飞行感", "日常奇遇"]
+    avoid: ["直接复制具体角色", "过度卡通幼龄化", "廉价日漫大眼", "荧光色", "赛博元素"]
+  prompt_core_zh: "日系手绘治愈动画风，开阔蓝天与柔软云朵，乡间小路与绿意山坡，温暖自然光，手绘背景质感，平凡日常里的轻微奇幻，空气感强，情绪温柔而真实。"
+  prompt_core_en: "warm hand-painted Japanese animated film atmosphere, open blue sky, soft clouds, countryside path, green hills, gentle natural sunlight, hand-painted background texture, subtle everyday wonder, airy composition, warm and grounded emotion."
+
+- id: pixar_family_3d
+  public_names: ["皮克斯风格"]
+  safe_label_zh: "温润家庭向 3D 动画电影感"
+  safe_label_en: "warm family-friendly 3D animated film look"
+  category: "animation_studio"
+  best_for: ["家庭向广告", "儿童品牌", "潮玩 IP", "亲子内容", "温暖角色短片"]
+  visual_dna:
+    composition: "角色居中、表情驱动、动作清晰，背景服务情绪和故事。"
+    color: "暖橙、柔蓝、明亮肤色、干净高饱和但受控。"
+    lighting: "电影级 3D 软光，轮廓光精致，室内暖光和窗边日光常见。"
+    texture: "圆润体块，皮肤和材质细腻，塑料、布料、毛发等质感清楚。"
+    camera: "低机位亲近角色，中景与特写突出情绪，轻柔推拉。"
+    emotion: "温暖、幽默、家庭情感、成长和陪伴。"
+    motifs: ["家庭餐桌", "宠物", "玩具", "客厅", "温暖窗光", "夸张但可信的表情"]
+    avoid: ["直接复制具体角色", "过度玩具塑料感", "空洞大笑", "廉价儿童动画"]
+  prompt_core_zh: "温润家庭向 3D 动画电影感，圆润亲和的原创角色，温暖窗光，细腻材质，表情驱动叙事，家庭陪伴氛围，电影级 3D 灯光与干净构图。"
+  prompt_core_en: "warm family-friendly 3D animated film look, rounded original characters, warm window light, refined materials, expression-driven storytelling, family companionship mood, cinematic 3D lighting, clean composition."
+
+- id: disney_fairytale_castle
+  public_names: ["迪士尼风格", "迪士尼童话风"]
+  safe_label_zh: "华丽童话城堡动画感"
+  safe_label_en: "ornate fairytale castle animation look"
+  category: "classic_animation_ip_mood"
+  best_for: ["童话城堡", "公主感海报", "节日视觉", "梦幻品牌 KV", "儿童内容"]
+  visual_dna:
+    composition: "中心城堡剪影、桥梁或湖面引导线、角色面向光源，构图华丽而清晰。"
+    color: "粉紫、金色、湖蓝、象牙白，偏梦幻黄金时刻。"
+    lighting: "夕阳、晨曦、魔法般的柔光，但避免廉价光点堆积。"
+    texture: "精致动画背景、柔和渐变、干净的建筑体块与装饰线。"
+    camera: "由低到高建立城堡宏伟感，缓慢推进，最后英雄式定格。"
+    emotion: "浪漫、希望、节庆、童话仪式感。"
+    motifs: ["城堡尖塔", "湖面倒影", "桥", "花园", "飘带", "晚霞", "庆典灯光"]
+    avoid: ["复制具体城堡", "具体公主角色", "Logo", "过度闪粉", "廉价页游梦幻"]
+  prompt_core_zh: "华丽童话城堡动画感，原创梦幻城堡与尖塔剪影，黄金时刻晚霞，湖面倒影，浪漫花园，精致动画背景，温柔光晕，庄重又梦幻的童话仪式感。"
+  prompt_core_en: "ornate fairytale castle animation look, original dreamlike castle silhouette with towers, golden-hour sky, lake reflection, romantic garden, refined animated background, soft glow, ceremonial fairytale wonder."
+
+- id: van_gogh_impasto
+  public_names: ["梵高风格"]
+  safe_label_zh: "后印象派厚涂旋涡笔触"
+  safe_label_en: "post-impressionist impasto swirling brushwork"
+  category: "art_history_master"
+  best_for: ["艺术海报", "情绪化风景", "强笔触封面", "概念视觉"]
+  visual_dna:
+    composition: "天空与地景形成强节奏，旋涡笔触带动画势能。"
+    color: "深蓝、钴蓝、明黄、橙黄、黑绿，高对比但整体统一。"
+    lighting: "星光、月光或夕阳被转化成强烈笔触节奏。"
+    texture: "厚涂油彩、短促笔触、旋涡方向明显，画布肌理强。"
+    camera: "静态画面为主，但视频可让笔触流动、星空轻微旋转。"
+    emotion: "激烈、孤独、诗性、内心化的自然。"
+    motifs: ["旋涡天空", "星月", "麦田", "小镇", "柏树", "强烈油彩肌理"]
+    avoid: ["直接复刻名画构图", "过度数字特效", "只加旋涡没有油彩厚度"]
+  prompt_core_zh: "后印象派厚涂旋涡笔触，深蓝与明黄强对比，厚重油彩肌理，天空与地景形成旋转节奏，情绪化风景，画布质感明显。"
+  prompt_core_en: "post-impressionist impasto swirling brushwork, deep blue and bright yellow contrast, thick oil-paint texture, rotating rhythm between sky and landscape, emotional landscape, visible canvas texture."
+
+- id: morandi_still_life
+  public_names: ["莫兰迪风格"]
+  safe_label_zh: "低饱和灰调静物美学"
+  safe_label_en: "muted gray-toned still-life palette"
+  category: "art_history_master"
+  best_for: ["家居静物", "高级生活方式", "香氛茶器", "文艺封面", "低调品牌 KV"]
+  visual_dna:
+    composition: "少量瓶罐器物，水平桌面，几何体块稳定，空间克制。"
+    color: "灰粉、灰蓝、米灰、陶土色、旧白，低饱和且微妙。"
+    lighting: "柔软漫射光，几乎无强烈高光，影子安静。"
+    texture: "粉质表面、陶器、旧墙、纸张、磨砂玻璃。"
+    camera: "静态正面或微侧面，轻微俯视，强调平衡。"
+    emotion: "静默、克制、文艺、时间感。"
+    motifs: ["瓶罐", "陶碗", "旧书", "枝条", "灰调背景", "静物桌面"]
+    avoid: ["亮色过多", "奢华金属", "复杂背景", "强商业反光"]
+  prompt_core_zh: "低饱和灰调静物美学，安静瓶罐与陶器，灰粉、灰蓝、米灰配色，柔软漫射光，旧墙背景，稳定构图，克制文艺气质。"
+  prompt_core_en: "muted gray-toned still-life palette, quiet bottles and ceramics, dusty pink, gray blue, warm gray, soft diffused light, aged wall background, stable composition, restrained poetic mood."
+
+- id: wes_anderson_symmetry
+  public_names: ["韦斯·安德森风格", "韦斯安德森风格"]
+  safe_label_zh: "对称复古糖果色电影构图"
+  safe_label_en: "symmetrical pastel retro cinema composition"
+  category: "film_director_mood"
+  best_for: ["复古海报", "人物群像", "品牌封面", "旅行内容", "小红书视觉"]
+  visual_dna:
+    composition: "中轴对称、平面化空间、人物像橱窗陈列般站位。"
+    color: "粉、芥末黄、薄荷绿、砖红、奶油色，复古但干净。"
+    lighting: "均匀柔光，低反差，像精心布置的舞台。"
+    texture: "复古道具、壁纸、制服、老式室内陈设。"
+    camera: "正面固定镜头，水平横移，精确构图。"
+    emotion: "冷幽默、精致、怪诞、秩序感。"
+    motifs: ["酒店", "火车", "制服", "复古房间", "对称门窗", "道具陈列"]
+    avoid: ["倾斜随意构图", "现代杂乱背景", "高反差写实黑暗光"]
+  prompt_core_zh: "对称复古糖果色电影构图，中轴构图，平面化空间，粉彩复古配色，精致道具陈列，冷幽默与秩序感，像一本设计精密的电影画册。"
+  prompt_core_en: "symmetrical pastel retro cinema composition, central-axis framing, flat staged space, pastel vintage palette, precise prop arrangement, dry humor and order, like a meticulously designed film artbook."
+
+- id: wong_kar_wai_neon
+  public_names: ["王家卫风格"]
+  safe_label_zh: "霓虹胶片都市孤独感"
+  safe_label_en: "neon film-grain urban melancholy"
+  category: "film_director_mood"
+  best_for: ["都市情绪片", "夜景人物", "文艺海报", "情感短片", "胶片感封面"]
+  visual_dna:
+    composition: "近距离人物、门框/玻璃/走廊分割空间，前景遮挡与反射。"
+    color: "红绿霓虹、钨丝灯黄、深黑阴影，胶片颗粒明显。"
+    lighting: "夜景混合光，霓虹反射，局部脸部受光。"
+    texture: "湿润街道、旧墙、玻璃反射、烟雾和胶片颗粒。"
+    camera: "慢动作、手持、长焦压缩、擦肩而过。"
+    emotion: "暧昧、孤独、时间错位、未说出口的情绪。"
+    motifs: ["雨夜街道", "餐馆", "走廊", "玻璃反射", "霓虹招牌", "时钟"]
+    avoid: ["普通赛博霓虹", "过度清晰干净", "廉价爱情剧海报"]
+  prompt_core_zh: "霓虹胶片都市孤独感，雨夜街道，红绿混合光，玻璃反射，湿润墙面，近距离人物侧脸，胶片颗粒，暧昧而克制的情绪。"
+  prompt_core_en: "neon film-grain urban melancholy, rainy night street, red and green mixed light, glass reflections, wet walls, close side-profile portrait, film grain, restrained ambiguous emotion."
+
+- id: tim_burton_gothic
+  public_names: ["蒂姆·伯顿风格", "蒂姆伯顿风格"]
+  safe_label_zh: "暗黑哥特童话定格感"
+  safe_label_en: "dark gothic fairytale stop-motion atmosphere"
+  category: "film_animation_director_mood"
+  best_for: ["暗黑童话", "万圣节视觉", "怪诞角色", "定格感短片"]
+  visual_dna:
+    composition: "夸张瘦长形体、倾斜建筑、月光剪影、戏剧性前景。"
+    color: "黑白灰、冷蓝、暗紫、少量红色点缀。"
+    lighting: "强轮廓月光，阴影拉长，局部烛光。"
+    texture: "手作定格、哥特建筑、旧布、木偶感材质。"
+    camera: "广角轻微畸变，缓慢推进，奇异童话舞台感。"
+    emotion: "怪诞、孤独、黑色幽默、童话感。"
+    motifs: ["月亮", "枯树", "哥特屋顶", "瘦长角色", "烛光", "墓园式背景"]
+    avoid: ["恐怖血腥", "真实尸体", "粗糙低幼鬼怪"]
+  prompt_core_zh: "暗黑哥特童话定格感，瘦长原创角色，倾斜哥特建筑，冷月光，枯树剪影，手作木偶质感，怪诞但可爱的黑色童话氛围。"
+  prompt_core_en: "dark gothic fairytale stop-motion atmosphere, slender original characters, tilted gothic architecture, cold moonlight, twisted tree silhouettes, handmade puppet texture, strange but charming dark fairytale mood."
+
+- id: zhang_yimou_ceremonial_color
+  public_names: ["张艺谋风格"]
+  safe_label_zh: "东方仪式感高饱和色块电影美学"
+  safe_label_en: "high-saturation ceremonial Eastern cinematic color fields"
+  category: "film_director_mood"
+  best_for: ["东方大片", "节庆海报", "非遗视觉", "仪式感场面", "大型群像"]
+  visual_dna:
+    composition: "大面积色块、群体队列、仪式动作、平面秩序与宏大调度。"
+    color: "中国红、金黄、墨黑、雪白、青绿，单一主色强控制。"
+    lighting: "戏剧化自然光或火光，强调色彩平面冲击。"
+    texture: "丝绸、纸伞、宫墙、黄土、雪地、布阵。"
+    camera: "高位俯拍、横向展开、群体同步动作。"
+    emotion: "庄严、悲壮、东方仪式、视觉压迫力。"
+    motifs: ["红墙", "长队", "纸伞", "鼓阵", "丝绸", "雪地", "大场面"]
+    avoid: ["杂色堆砌", "廉价古装剧", "过度仙侠化"]
+  prompt_core_zh: "东方仪式感高饱和色块电影美学，大面积单色控制，群体队列，庄重动作，红与金的强视觉秩序，宏大电影调度。"
+  prompt_core_en: "high-saturation ceremonial Eastern cinematic color fields, large controlled color blocks, group formations, solemn gestures, strong red-and-gold visual order, grand cinematic staging."
+
+- id: kurosawa_samurai_epic
+  public_names: ["黑泽明风格"]
+  safe_label_zh: "风尘武士史诗黑白电影感"
+  safe_label_en: "wind-swept samurai epic monochrome cinema"
+  category: "film_director_mood"
+  best_for: ["武士史诗", "黑白动作分镜", "风雨战场", "东方硬派海报"]
+  visual_dna:
+    composition: "大远景中的人物剪影，横向空间调度，风雨尘土制造运动。"
+    color: "黑白灰高层次，可加入少量土黄作为现代转译。"
+    lighting: "自然硬光、阴云、雨幕、风尘中的高反差。"
+    texture: "泥土、盔甲、木屋、风吹布料、雨水。"
+    camera: "长镜头横移、远景调度、动作清晰，不碎剪。"
+    emotion: "肃杀、悲壮、克制、命运感。"
+    motifs: ["风", "雨", "尘土", "武士剪影", "荒野", "旗帜", "群体战阵"]
+    avoid: ["花哨武侠特效", "慢动作滥用", "霓虹色"]
+  prompt_core_zh: "风尘武士史诗黑白电影感，荒野远景，风雨尘土，人物剪影，强黑白层次，清晰横向调度，肃杀悲壮。"
+  prompt_core_en: "wind-swept samurai epic monochrome cinema, barren wide landscape, rain and dust, human silhouettes, strong black-and-white tonal range, clear lateral staging, solemn tragic mood."
+
+- id: kubrick_symmetry
+  public_names: ["库布里克风格"]
+  safe_label_zh: "中轴对称冷峻电影构图"
+  safe_label_en: "austere central-symmetry cinematic framing"
+  category: "film_director_mood"
+  best_for: ["心理悬疑", "高级科幻", "冷峻空间", "建筑感海报"]
+  visual_dna:
+    composition: "严格中轴对称、深走廊、单点透视，人物像被空间压迫。"
+    color: "冷白、深红、橙黄、黑色，色彩少但压迫。"
+    lighting: "均匀顶光或冷硬室内光，强调空间秩序。"
+    texture: "地毯、墙面、金属、酒店走廊、几何图案。"
+    camera: "缓慢推轨、正面凝视、稳定构图。"
+    emotion: "冷峻、危险、荒诞、心理压迫。"
+    motifs: ["走廊", "对称门", "几何地面", "空旷房间", "中心人物"]
+    avoid: ["手持乱晃", "过度温暖家庭感", "杂乱构图"]
+  prompt_core_zh: "中轴对称冷峻电影构图，单点透视走廊，几何空间，中心人物，冷硬光，克制色彩，心理压迫感。"
+  prompt_core_en: "austere central-symmetry cinematic framing, one-point-perspective corridor, geometric space, centered figure, cool hard light, restrained color palette, psychological pressure."
+
+- id: nolan_large_scale_order
+  public_names: ["诺兰风格"]
+  safe_label_zh: "冷峻理性大尺度电影秩序感"
+  safe_label_en: "cool rational large-scale cinematic order"
+  category: "film_director_mood"
+  best_for: ["硬科幻", "城市灾变", "时间主题", "宏大商业片", "高概念海报"]
+  visual_dna:
+    composition: "大尺度建筑或自然景观压过人物，清晰几何秩序和现实质感。"
+    color: "冷蓝灰、钢铁黑、沙色、低饱和橙，整体克制。"
+    lighting: "自然硬光、阴天漫射、IMAX 式大景深。"
+    texture: "混凝土、钢铁、风沙、水面、真实城市。"
+    camera: "大远景、航拍、稳定推轨、物理可信运动。"
+    emotion: "冷峻、理性、命运感、宏大但克制。"
+    motifs: ["巨构城市", "海面", "沙漠", "时间装置", "西装人物", "低饱和灾变"]
+    avoid: ["廉价科幻 UI", "魔法光效", "过度霓虹"]
+  prompt_core_zh: "冷峻理性大尺度电影秩序感，真实巨构空间，低饱和蓝灰色，物理可信的宏大场面，人物被空间压缩，克制而震撼。"
+  prompt_core_en: "cool rational large-scale cinematic order, realistic monumental space, low-saturation blue-gray palette, physically believable spectacle, human figure dwarfed by architecture, restrained yet overwhelming."
+
+- id: ridley_scott_industrial_scifi
+  public_names: ["雷德利·斯科特风格", "雷德利斯科特风格"]
+  safe_label_zh: "工业史诗科幻电影感"
+  safe_label_en: "industrial epic science-fiction cinema mood"
+  category: "film_director_mood"
+  best_for: ["硬科幻世界观", "工业未来", "太空殖民", "暗调广告大片"]
+  visual_dna:
+    composition: "巨大工业空间、层层烟雾、人物渺小，结构复杂但有秩序。"
+    color: "冷蓝灰、钢铁黑、钠灯橙、污染绿，压暗整体曝光。"
+    lighting: "强侧逆光、烟雾中的光束、工业灯源。"
+    texture: "金属、管线、雨水、雾气、工业尘埃。"
+    camera: "低机位仰视巨构，缓慢推进，重工业压迫感。"
+    emotion: "宏大、冷酷、危险、文明废墟感。"
+    motifs: ["管线", "工业塔", "太空港", "冷雾", "雨水", "巨大机器"]
+    avoid: ["干净塑料科幻", "明亮卡通未来", "无材质的蓝色 UI"]
+  prompt_core_zh: "工业史诗科幻电影感，巨大金属结构，烟雾光束，冷蓝灰与钠灯橙，低机位巨构压迫感，真实工业材质。"
+  prompt_core_en: "industrial epic science-fiction cinema mood, massive metal structures, beams of light through smoke, cold blue-gray and sodium orange palette, low-angle monumental pressure, realistic industrial materials."
+
+- id: space_opera_epic
+  public_names: ["星战感", "星球大战感"]
+  safe_label_zh: "太空歌剧史诗冒险感"
+  safe_label_en: "space-opera epic adventure atmosphere"
+  category: "classic_ip_mood"
+  best_for: ["太空冒险", "宇宙海报", "飞船世界观", "英雄旅程"]
+  visual_dna:
+    composition: "巨大星球、舰队和小人物形成史诗比例，强前中后景。"
+    color: "深空蓝黑、沙漠金、引擎蓝、夕阳橙。"
+    lighting: "恒星逆光、太空冷光、沙漠日落。"
+    texture: "旧化飞船、沙尘、金属磨损、星尘。"
+    camera: "大远景建立宇宙尺度，追随飞船穿越空间。"
+    emotion: "冒险、英雄、命运、宇宙浪漫。"
+    motifs: ["原创飞船", "双日落意象", "沙漠星球", "星门", "英雄剪影"]
+    avoid: ["复制具体飞船/角色/光剑", "直接使用原 IP 标志"]
+  prompt_core_zh: "太空歌剧史诗冒险感，原创飞船与遥远星球，沙漠夕阳，英雄剪影，宇宙尺度，旧化金属材质，浪漫冒险氛围。"
+  prompt_core_en: "space-opera epic adventure atmosphere, original spacecraft and distant planets, desert sunset, heroic silhouette, cosmic scale, weathered metal texture, romantic adventure mood."
+
+- id: magical_academy
+  public_names: ["哈利波特感", "魔法学院感"]
+  safe_label_zh: "英伦魔法学院奇幻氛围"
+  safe_label_en: "British magical academy fantasy atmosphere"
+  category: "classic_ip_mood"
+  best_for: ["魔法校园", "奇幻课程", "儿童/青少年冒险", "学院海报"]
+  visual_dna:
+    composition: "古老学院建筑、长廊、图书馆、烛光大厅，学生作为尺度。"
+    color: "深棕、羊皮纸黄、烛光金、冷月蓝。"
+    lighting: "烛光与月光混合，暖冷对比。"
+    texture: "石墙、木桌、羊皮纸、旧书、长袍布料。"
+    camera: "从走廊推进到大厅，或俯瞰学院塔楼。"
+    emotion: "神秘、温暖、冒险、校园归属感。"
+    motifs: ["塔楼", "图书馆", "烛光", "飞鸟/猫头鹰式鸟类", "魔法课", "长桌"]
+    avoid: ["复制具体校徽/校服/角色", "使用专有咒语", "廉价魔法阵特效"]
+  prompt_core_zh: "英伦魔法学院奇幻氛围，古老石砌学院，烛光大厅，旧书与羊皮纸，月光塔楼，神秘温暖的校园冒险感。"
+  prompt_core_en: "British magical academy fantasy atmosphere, old stone academy, candlelit hall, aged books and parchment, moonlit towers, mysterious warm school-adventure mood."
+
+- id: future_noir_neon_city
+  public_names: ["银翼杀手感"]
+  safe_label_zh: "未来黑色电影雨夜霓虹都市"
+  safe_label_en: "future-noir rainy neon metropolis"
+  category: "classic_ip_mood"
+  best_for: ["赛博城市", "反乌托邦人物", "雨夜海报", "科幻侦探"]
+  visual_dna:
+    composition: "低角度城市峡谷，人物被高楼和广告压迫，雨水反射。"
+    color: "青蓝、品红、钠灯橙、黑色，整体潮湿阴暗。"
+    lighting: "霓虹反射与烟雾光束，强背光剪影。"
+    texture: "雨水、玻璃、金属、烟雾、旧广告屏。"
+    camera: "长焦压缩街道，低机位推行，雨中跟拍。"
+    emotion: "孤独、压抑、未来疲惫、黑色电影感。"
+    motifs: ["雨夜街道", "巨大屏幕", "透明雨伞", "飞行车辆", "潮湿霓虹"]
+    avoid: ["过度游戏 UI", "干净明亮科幻", "复制具体角色和标志"]
+  prompt_core_zh: "未来黑色电影雨夜霓虹都市，低角度城市峡谷，湿润街道反射，青蓝与品红霓虹，人物剪影，烟雾光束，孤独压迫。"
+  prompt_core_en: "future-noir rainy neon metropolis, low-angle urban canyon, wet street reflections, cyan and magenta neon, silhouetted figure, beams through smoke, lonely oppressive mood."

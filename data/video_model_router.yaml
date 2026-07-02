@@ -1,0 +1,61 @@
+# V3 视频模型路由表
+# 原则：先按镜头类型选模型，再按模型方言写提示词。三条铁律先于一切技巧。
+
+iron_rules:
+  - "长度纪律：中文提示词 30–100 词最佳，写完先删"
+  - "一条提示词只管一件主要的事，复杂需求拆多镜头或多次生成"
+  - "图生视频只写「运动+运镜」，禁止重复图中已有静态信息"
+
+models:
+  - id: jimeng_seedance
+    names: ["即梦", "Seedance"]
+    strengths: ["情绪氛围", "空镜", "风格化画面", "大幅度动作", "首尾帧", "多镜头公式"]
+    dialect:
+      length: "30–100 中文词"
+      multi_shot: "总体描述 + 镜头序号 + 时间戳[0-3秒] + 分镜内容"
+      i2v: "只写运动+运镜；不想镜头动写「固定镜头」"
+      motion: "幅度+速率+作用效果（如：猛烈地摇摆 / 缓慢地推开门，门轴吱呀作响）"
+    notes: "首尾帧转场首选；只描述两帧之间的动态过程"
+
+  - id: veo3
+    names: ["Veo 3", "Veo 3.1"]
+    strengths: ["音画同出", "对白口播", "物理真实感", "台词锁定"]
+    dialect:
+      voice: "台词加引号锁定内容；写明情绪+语调+语速+音色+口音"
+      sfx: "音源材质+行为+环境音"
+      bgm: "音乐类型+风格情绪；不要配乐写「无背景音乐」"
+      exclusion: "无台词 / 无背景音乐 / 生成单镜头"
+
+  - id: kling
+    names: ["可灵 2.6+"]
+    strengths: ["音画同出", "运动幅度控制", "人物表演"]
+    dialect:
+      voice: "同 Veo 声音三分法（人声/音效/BGM 分别描述）"
+      motion: "运动幅度用程度副词精确控制"
+
+  - id: wanxiang
+    names: ["万相 2.5+"]
+    strengths: ["公式体系原生", "音画同出", "美学控制词组前置"]
+    dialect:
+      aesthetic: "美学控制词组前置堆叠：边缘光，柔光，暖色调，中近景，中心构图，黄昏，+主体场景运动"
+
+routing:
+  - shot_type: "情绪氛围/空镜/风格化"
+    primary: jimeng_seedance
+  - shot_type: "对白/口播/需要声音"
+    primary: veo3
+    fallback: [kling, wanxiang]
+  - shot_type: "大幅度动作/物理运动"
+    primary: jimeng_seedance
+  - shot_type: "首尾帧转场/无缝衔接"
+    primary: jimeng_seedance
+  - shot_type: "风格锚定的图生视频"
+    note: "先用双引擎（ChatGPT Imagen 2/NB2）出首帧图，再套 I2V 公式（运动+运镜）"
+
+negative_motion_defaults:
+  - "不要跳切"
+  - "不要瞬移"
+  - "不要随机变形"
+  - "不要主体闪烁"
+  - "不要粒子乱飞"
+  - "不要文字乱码"

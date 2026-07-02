@@ -1,0 +1,686 @@
+- id: cinematic_realism
+  zh_name: 电影写实风
+  en_name: Cinematic Realism
+  category: 电影 / 商业 / 摄影类
+  best_for:
+  - 人物剧照
+  - 品牌片封面
+  - 故事分镜
+  - 纪实感广告
+  - 概念海报
+  not_for:
+  - 过度装饰海报
+  - 儿童绘本
+  - 扁平信息图
+  dna:
+    composition: 电影镜头构图，明确前中后景，主体有叙事动作，常用浅景深与环境层次。
+    color: 自然色彩，受控的冷暖对比，可使用胶片 LUT、低饱和高动态范围。
+    lighting: 真实摄影光源，街灯、窗光、自然光、雨夜反光、逆光或侧逆光。
+    material: 真实皮肤、布料、雨水、玻璃、金属、街道路面反光。
+    emotion: 真实、沉浸、故事感、可信。
+    keywords:
+    - cinematic realism
+    - natural light
+    - film still
+    - realistic skin texture
+    - 35mm lens
+    - shallow depth of field
+    - documentary atmosphere
+    negative:
+    - cheap CG
+    - plastic skin
+    - overprocessed HDR
+    - random neon
+    - fake bokeh
+    - AI gloss
+    - distorted face
+- id: commercial_photography
+  zh_name: 商业摄影风
+  en_name: Premium Commercial Photography
+  category: 电影 / 商业 / 摄影类
+  best_for:
+  - 产品广告
+  - 电商主图
+  - 品牌 KV
+  - 香水/护肤/医疗器械
+  - 高端静物
+  not_for:
+  - 奇幻世界观
+  - 复杂叙事漫画
+  dna:
+    composition: 主体明确，产品几何准确，画面干净，留出文字排版空间。
+    color: 品牌色控制，常用白、米白、黑、金属灰、琥珀、青绿等高级色。
+    lighting: 柔和棚拍光、轮廓光、反射板、细腻高光。
+    material: 玻璃、金属、液体、亚克力、石材、织物、花叶。
+    emotion: 干净、可信、高级、精密。
+    keywords:
+    - premium commercial product photography
+    - clean background
+    - soft studio lighting
+    - precise product geometry
+    - luxury advertising
+    negative:
+    - wrong product shape
+    - messy background
+    - cheap ecommerce look
+    - overcrowded props
+    - fake reflections
+    - text gibberish
+- id: neo_chinese
+  zh_name: 新中式风格
+  en_name: Neo-Chinese Minimal Aesthetic
+  category: 东方美学类
+  best_for:
+  - 东方品牌
+  - 茶饮/香氛/家居
+  - 非遗视觉
+  - 医疗隐喻片
+  - 高级封面
+  not_for:
+  - 强冲击潮流海报
+  - 儿童 IP
+  - 赛博科幻
+  dna:
+    composition: 留白、圆窗、屏风、山水远景、案几、横向层次、克制对称。
+    color: 米白、墨青、黛蓝、暖金、木色、低饱和绿色。
+    lighting: 自然漫反射、晨光、柔和侧光。
+    material: 宣纸、原木、陶瓷、竹影、亚麻、石材。
+    emotion: 克制、安静、诗意、高级。
+    keywords:
+    - elegant neo-Chinese minimal composition
+    - rice paper texture
+    - ink-wash mountain silhouette
+    - refined negative space
+    - warm natural light
+    negative:
+    - cheap costume drama
+    - excessive red gold
+    - crowded ornaments
+    - plastic texture
+    - cyberpunk neon
+- id: ink_wash_chinese
+  zh_name: 水墨国风
+  en_name: Chinese Ink-Wash Landscape
+  category: 东方美学类
+  best_for:
+  - 山水意境
+  - 东方海报
+  - 仙侠水墨
+  - 文化视觉
+  - 诗意片头
+  not_for:
+  - 精确产品展示
+  - 高饱和商业潮流
+  dna:
+    composition: 大面积留白，近景松石，中景亭台舟桥，远景山雾层叠。
+    color: 墨黑、灰白、淡青、赭石，少量印章红。
+    lighting: 雾气漫射，柔光，重意境不重硬光。
+    material: 宣纸纹理、墨迹晕染、飞白、淡彩。
+    emotion: 空灵、悠远、诗性、含蓄。
+    keywords:
+    - Chinese ink wash painting
+    - misty mountains
+    - rice paper texture
+    - elegant negative space
+    - poetic landscape
+    negative:
+    - hard outline cartoon
+    - oversaturated colors
+    - digital neon
+    - cheap fantasy palace
+    - overly detailed clutter
+- id: gongbi_chinese
+  zh_name: 工笔国风
+  en_name: Gongbi Chinese Fine-Line Painting
+  category: 东方美学类
+  best_for:
+  - 仕女
+  - 花鸟
+  - 古典人物
+  - 屏风装饰
+  - 精致国风海报
+  not_for:
+  - 高速动作场面
+  - 粗粝写实广告
+  dna:
+    composition: 细密线描，平面装饰，花鸟人物互为画面结构。
+    color: 胭脂、石青、石绿、浅金、米白，色彩雅致。
+    lighting: 平面化柔光，不强调真实阴影。
+    material: 绢本、宣纸、矿物色、细金线。
+    emotion: 典雅、精致、东方古典。
+    keywords:
+    - Chinese gongbi fine-line painting
+    - delicate linework
+    - mineral pigments
+    - elegant court lady
+    - flower and bird motif
+    negative:
+    - messy brush strokes
+    - anime face
+    - cheap costume fantasy
+    - overexposed gold
+    - modern plastic texture
+- id: dunhuang_mural
+  zh_name: 敦煌壁画风
+  en_name: Dunhuang Mural Aesthetic
+  category: 东方美学类
+  best_for:
+  - 非遗短片
+  - 神性视觉
+  - 矿物色动画
+  - 东方奇谭
+  - 文化海报
+  not_for:
+  - 现代产品白底图
+  - 小清新生活方式
+  dna:
+    composition: 横向壁画叙事，飞天飘带，祥云莲花，矿物纹理，斑驳墙面。
+    color: 石青、石绿、赭红、土黄、金色、孔雀蓝。
+    lighting: 壁画表面的柔光，局部金粉反光。
+    material: 矿物颜料、壁面裂纹、风化边缘、手绘纹样。
+    emotion: 古老、神秘、庄严、灵动。
+    keywords:
+    - Dunhuang mural aesthetic
+    - mineral pigment texture
+    - weathered fresco wall
+    - flowing ribbons
+    - ancient Chinese sacred atmosphere
+    negative:
+    - modern anime
+    - glossy plastic
+    - random light particles
+    - cheap fantasy armor
+    - flat low-resolution texture
+- id: song_aesthetic
+  zh_name: 宋代美学风
+  en_name: Song Dynasty Literati Aesthetic
+  category: 东方美学类
+  best_for:
+  - 文人器物
+  - 茶席
+  - 花鸟山水
+  - 高级东方生活方式
+  - 博物馆视觉
+  not_for:
+  - 强烈动作大片
+  - 高饱和节庆海报
+  dna:
+    composition: 留白、器物静置、窗前枝条、低矮案几、淡远山水。
+    color: 汝窑青、米白、墨灰、淡褐、浅绿。
+    lighting: 柔和自然光，克制阴影。
+    material: 陶瓷、宣纸、木器、竹、花枝、古籍。
+    emotion: 清雅、克制、文人气、静气。
+    keywords:
+    - Song dynasty literati aesthetic
+    - quiet still life
+    - celadon porcelain
+    - minimal Chinese composition
+    - elegant negative space
+    negative:
+    - gaudy palace style
+    - heavy red gold
+    - busy patterns
+    - fantasy costume
+    - plastic porcelain
+- id: impasto_illustration
+  zh_name: 厚涂插画风
+  en_name: Painterly Impasto Concept Illustration
+  category: 艺术史 / 绘画类
+  best_for:
+  - 角色设定
+  - 游戏海报
+  - 奇幻世界观
+  - 概念设计
+  - 英雄主视觉
+  not_for:
+  - 干净产品广告
+  - 极简排版
+  dna:
+    composition: 强主体，戏剧性视角，背景与人物融合，笔触带体积。
+    color: 层次丰富，高对比但不脏，冷暖交织。
+    lighting: 戏剧化逆光、云层光、火光或环境反射。
+    material: 厚涂笔触、布料、金属、岩石、云雾。
+    emotion: 史诗、力量、动势、角色魅力。
+    keywords:
+    - painterly impasto concept art
+    - rich brush texture
+    - epic character poster
+    - dramatic lighting
+    - high detail illustration
+    negative:
+    - flat anime coloring
+    - plastic 3D
+    - random particles
+    - unclear silhouette
+    - overcrowded background
+- id: classical_oil
+  zh_name: 古典写实油画风
+  en_name: Classical Realist Oil Painting
+  category: 艺术史 / 绘画类
+  best_for:
+  - 人物肖像
+  - 复古海报
+  - 戏剧场景
+  - 历史感品牌视觉
+  not_for:
+  - 现代科技产品
+  - 儿童可爱 IP
+  dna:
+    composition: 人物结构准确，三角构图，静物与幕布增加历史质感。
+    color: 深棕、酒红、黑金、象牙白、暗绿。
+    lighting: 伦勃朗式侧光、烛光、低调明暗对比。
+    material: 油画布、皮革、天鹅绒、金属器皿、花卉。
+    emotion: 典雅、沉稳、历史感、博物馆级。
+    keywords:
+    - classical realist oil painting
+    - museum quality portrait
+    - chiaroscuro lighting
+    - rich fabric texture
+    - old master atmosphere
+    negative:
+    - modern fashion photo
+    - cartoon face
+    - over-sharp digital render
+    - neon lighting
+    - flat background
+- id: minimalism
+  zh_name: 极简主义风格
+  en_name: Minimalism
+  category: 艺术史 / 绘画类
+  best_for:
+  - 高端品牌
+  - 科技产品
+  - 海报排版
+  - 概念封面
+  - 空间美学
+  not_for:
+  - 复杂叙事世界观
+  - 热闹节庆画面
+  dna:
+    composition: 少元素，大留白，清晰几何关系，主体极少但位置精准。
+    color: 白、黑、灰、米色、单一强调色。
+    lighting: 干净自然光或均匀棚拍光。
+    material: 纸、陶、木、金属、墙面、光影本身。
+    emotion: 理性、安静、高级、干净。
+    keywords:
+    - minimal composition
+    - large negative space
+    - clean geometry
+    - muted palette
+    - quiet luxury
+    negative:
+    - busy details
+    - decorative clutter
+    - random patterns
+    - oversaturated color
+    - cheap template design
+- id: japanese_healing_animation
+  zh_name: 日系手绘治愈动画风
+  en_name: Japanese Hand-Painted Healing Animation
+  category: 动画 / 插画 / IP 类
+  best_for:
+  - 治愈短片
+  - 童心叙事
+  - 乡村日常
+  - 森林田野
+  - 温暖角色
+  not_for:
+  - 商业硬广
+  - 写实产品广告
+  dna:
+    composition: 温暖日常场景，自然景物丰富，人物小而灵动，空间开放。
+    color: 柔和暖色、浅绿、淡黄、天空蓝、手绘色块。
+    lighting: 午后阳光、树影、云层柔光。
+    material: 手绘线条、水彩背景、纸感纹理。
+    emotion: 温柔、童心、生活感、治愈。
+    keywords:
+    - hand-painted Japanese animated film atmosphere
+    - soft watercolor background
+    - warm countryside
+    - gentle character emotion
+    - nostalgic daily life
+    negative:
+    - direct studio name
+    - overly glossy 3D
+    - dark horror mood
+    - cyberpunk neon
+    - cheap chibi
+- id: storybook
+  zh_name: 童话绘本风
+  en_name: Fairytale Storybook Illustration
+  category: 动画 / 插画 / IP 类
+  best_for:
+  - 儿童绘本
+  - 童话海报
+  - 温暖品牌 IP
+  - 亲子内容
+  not_for:
+  - 成人写实广告
+  - 暗黑写实题材
+  dna:
+    composition: 圆润角色，温暖小屋，花草，城堡或森林路径，故事化画面。
+    color: 柔和糖果色、奶油色、浅绿、粉橙、天空蓝。
+    lighting: 柔光、梦幻但不过曝。
+    material: 水彩、彩铅、纸张纹理。
+    emotion: 亲和、童真、柔软、安全。
+    keywords:
+    - fairytale storybook illustration
+    - soft rounded characters
+    - warm cottage
+    - gentle watercolor texture
+    - childlike wonder
+    negative:
+    - creepy doll
+    - sharp horror shadow
+    - adult seductive pose
+    - overcomplicated detail
+    - plastic toy render
+- id: blindbox_3d
+  zh_name: 3D 盲盒风
+  en_name: Cute Collectible Blind Box 3D
+  category: 动画 / 插画 / IP 类
+  best_for:
+  - 潮玩 IP
+  - 品牌拟人化
+  - 可爱商业视觉
+  - 角色系列海报
+  - 玩具发布
+  not_for:
+  - 严肃医疗广告
+  - 历史写实画面
+  dna:
+    composition: Q版比例，大头小身，陈列台、包装盒、配件系统。
+    color: 柔和明亮，奶油色，粉、蓝、薄荷绿、少量品牌色。
+    lighting: 柔和棚拍光，玩具材质高光。
+    material: 树脂、搪胶、亚克力、透明展示盒、纸盒包装。
+    emotion: 可爱、收藏感、商业化、治愈。
+    keywords:
+    - cute collectible blind box 3D character
+    - vinyl toy texture
+    - display packaging
+    - soft studio light
+    - miniature accessories
+    negative:
+    - real human skin
+    - creepy doll eyes
+    - cheap plastic
+    - messy toy shelf
+    - wrong character proportions
+- id: felt_handmade
+  zh_name: 毛毡手作风
+  en_name: Felt Handmade Craft Aesthetic
+  category: 动画 / 插画 / IP 类
+  best_for:
+  - 可爱视频
+  - 亲子内容
+  - 温暖 IP
+  - 手作感封面
+  - 节日卡片
+  not_for:
+  - 高端科技广告
+  - 写实人物剧照
+  dna:
+    composition: 微缩场景，针织角色，布料小屋，柔软道具。
+    color: 低饱和暖色，奶油白，浅棕，粉色，草绿。
+    lighting: 温暖台灯光，微距浅景深。
+    material: 羊毛毡、线缝、布料、纽扣、木桌。
+    emotion: 手作、温暖、治愈、可爱。
+    keywords:
+    - felt handmade miniature scene
+    - wool texture
+    - stitched details
+    - warm cozy lighting
+    - tiny crafted characters
+    negative:
+    - smooth plastic
+    - photoreal human
+    - cold sci-fi light
+    - messy fibers
+    - horror doll
+- id: korean_fresh
+  zh_name: 韩系清新风
+  en_name: Korean Clean Fresh Lifestyle
+  category: 电影 / 商业 / 摄影类
+  best_for:
+  - 小红书封面
+  - 生活方式
+  - 女性向内容
+  - 咖啡馆/花束/穿搭
+  - 清新人物照
+  not_for:
+  - 史诗奇幻
+  - 废土科幻
+  dna:
+    composition: 明亮窗边、干净室内、人物自然看镜或侧脸，留出标题区。
+    color: 白、奶油、浅绿、浅蓝、浅粉、木色。
+    lighting: 明亮自然光，柔和肤色。
+    material: 棉麻、花瓶、玻璃杯、白墙、木桌。
+    emotion: 清爽、温柔、生活感、干净。
+    keywords:
+    - Korean clean fresh lifestyle photography
+    - bright natural window light
+    - soft skin tone
+    - minimal cozy cafe
+    - gentle pastel palette
+    negative:
+    - heavy makeup
+    - dark cinematic grime
+    - neon cyberpunk
+    - busy clutter
+    - overly sexy pose
+- id: fresh_forest
+  zh_name: 清新森系风
+  en_name: Fresh Forest Healing Aesthetic
+  category: 电影 / 商业 / 摄影类
+  best_for:
+  - 自然治愈
+  - 森林短片
+  - 花草封面
+  - 户外生活方式
+  - 儿童品牌
+  not_for:
+  - 硬核科技
+  - 暗黑哥特
+  dna:
+    composition: 森林小径、花草前景、阳光穿林、人物与动物轻量出现。
+    color: 低饱和绿色、米白、浅黄、天空蓝。
+    lighting: 晨光、逆光、树影、空气感。
+    material: 草地、花朵、木头、棉麻、露水。
+    emotion: 自然、轻盈、治愈、呼吸感。
+    keywords:
+    - fresh forest healing aesthetic
+    - sunlight through trees
+    - wildflowers foreground
+    - soft natural green palette
+    - gentle atmosphere
+    negative:
+    - dark horror forest
+    - oversaturated green
+    - fantasy particles
+    - plastic flowers
+    - dirty haze
+- id: french_retro
+  zh_name: 法式复古风
+  en_name: French Vintage Lifestyle
+  category: 电影 / 商业 / 摄影类
+  best_for:
+  - City Walk
+  - 咖啡馆封面
+  - 穿搭海报
+  - 复古生活方式
+  - 街拍
+  not_for:
+  - 科技产品硬广
+  - 儿童 IP
+  dna:
+    composition: 街边咖啡馆、报纸、圆桌、老建筑立面，自然姿态。
+    color: 米色、驼色、酒红、深绿、胶片暖调。
+    lighting: 自然街景光，午后或黄昏。
+    material: 风衣、藤椅、咖啡杯、旧招牌、石板路。
+    emotion: 慵懒、文艺、复古、优雅。
+    keywords:
+    - French vintage cafe lifestyle
+    - Parisian street cafe
+    - film photography warmth
+    - elegant trench coat
+    - relaxed editorial composition
+    negative:
+    - tourist postcard cliché
+    - overly saturated colors
+    - modern plastic cafe
+    - AI perfect face
+    - messy signage
+- id: futurism
+  zh_name: 未来主义风格
+  en_name: Futurism
+  category: 科幻 / 奇幻 / 世界观类
+  best_for:
+  - 科技交通
+  - 智慧城市
+  - 产品概念
+  - 高速度视觉
+  - 未来品牌
+  not_for:
+  - 传统东方非遗
+  - 自然治愈短片
+  dna:
+    composition: 流线结构、速度线、城市纵深、银白空间、透明界面但不杂乱。
+    color: 银白、冷蓝、玻璃灰、少量电光色。
+    lighting: 冷光、反射、高速轨迹光。
+    material: 金属、玻璃、碳纤维、透明屏、光轨。
+    emotion: 理性、速度、智能、前沿。
+    keywords:
+    - sleek futurism
+    - high-speed motion blur
+    - clean advanced city
+    - streamlined technology
+    - silver and blue palette
+    negative:
+    - dirty cyberpunk alley
+    - random neon overload
+    - retro steampunk gears
+    - cheap HUD clutter
+    - unreadable text
+- id: dark_gothic
+  zh_name: 暗黑哥特风
+  en_name: Dark Gothic Aesthetic
+  category: 科幻 / 奇幻 / 世界观类
+  best_for:
+  - 暗黑角色
+  - 哥特建筑
+  - 悬疑海报
+  - 吸血鬼/古堡氛围
+  - 黑红时尚
+  not_for:
+  - 亲子品牌
+  - 医疗可信广告
+  dna:
+    composition: 尖顶建筑、玫瑰窗、烛光、黑色服装、红玫瑰。
+    color: 黑、深红、冷灰、蜡烛金。
+    lighting: 低调光，烛光，月光，强明暗对比。
+    material: 蕾丝、天鹅绒、石墙、金属十字形装饰、玫瑰。
+    emotion: 神秘、阴郁、华丽、危险。
+    keywords:
+    - dark gothic aesthetic
+    - cathedral shadows
+    - candlelit atmosphere
+    - black lace and red roses
+    - moody dramatic lighting
+    negative:
+    - cute cartoon
+    - bright pastel palette
+    - cheap Halloween props
+    - overly bloody scene
+    - plastic costume
+- id: wabi_sabi
+  zh_name: 侘寂风格
+  en_name: Wabi-Sabi Aesthetic
+  category: 电影 / 商业 / 摄影类
+  best_for:
+  - 东方静物
+  - 家居空间
+  - 香氛茶器
+  - 高级生活方式
+  - 沉静封面
+  not_for:
+  - 潮流年轻化封面
+  - 科幻速度场面
+  dna:
+    composition: 粗陶器物、斑驳墙面、枯枝、亚麻布、低矮木桌，构图留白。
+    color: 灰褐、米白、陶土色、木色、黑灰。
+    lighting: 自然侧光，柔和阴影，时间痕迹。
+    material: 粗陶、旧木、麻布、干枝、石墙。
+    emotion: 安静、朴素、残缺之美、禅意。
+    keywords:
+    - wabi-sabi still life
+    - aged wall texture
+    - rough ceramic vase
+    - natural side light
+    - quiet imperfect beauty
+    negative:
+    - luxury shiny gold
+    - perfect polished surfaces
+    - bright saturated color
+    - crowded decoration
+    - modern plastic
+- id: surrealism
+  zh_name: 超现实主义风格
+  en_name: Surrealism
+  category: 艺术史 / 绘画类
+  best_for:
+  - 概念海报
+  - 梦境叙事
+  - 哲学视觉
+  - 艺术封面
+  - 实验短片
+  not_for:
+  - 客户需要真实可信的产品广告
+  dna:
+    composition: 现实逻辑被打破，漂浮物体、巨型眼睛、楼梯、时钟、门、云海并置。
+    color: 可冷可暖，通常低饱和或梦境蓝灰，强调空间错位。
+    lighting: 梦境柔光，方向合理但场景不合理。
+    material: 真实材质与不可能空间结合。
+    emotion: 荒诞、神秘、诗性、潜意识。
+    keywords:
+    - surreal dreamlike scene
+    - impossible architecture
+    - floating objects
+    - poetic subconscious atmosphere
+    - realistic materials in impossible space
+    negative:
+    - random meaningless objects
+    - messy collage
+    - cheap fantasy portal
+    - overly literal explanation
+    - text gibberish
+- id: memphis
+  zh_name: 孟菲斯风格
+  en_name: Memphis Design
+  category: 复古 / 亚文化 / 图形设计类
+  best_for:
+  - 潮流海报
+  - 年轻化品牌
+  - 活动视觉
+  - 信息卡片
+  - 复古设计
+  not_for:
+  - 高端医疗广告
+  - 东方非遗正片
+  dna:
+    composition: 几何块面、波点、条纹、锯齿、强对比拼贴。
+    color: 青绿、黄、粉、紫、黑白几何，明快强烈。
+    lighting: 平面设计感，不强调真实光源。
+    material: 纸张、矢量块面、印刷纹理。
+    emotion: 活泼、复古、设计感、轻松。
+    keywords:
+    - Memphis design poster
+    - bold geometric shapes
+    - playful color blocks
+    - retro graphic pattern
+    - flat design layout
+    negative:
+    - realistic cinematic shadow
+    - overcomplicated illustration
+    - dull gray palette
+    - luxury minimalism
+    - random 3D render
